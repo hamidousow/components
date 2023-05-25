@@ -21,7 +21,6 @@ function createCard() {
 }
 
 function deleteOneCard(event) {
-    let lui = event.target.parentNode.parentNode.id;
-    let elt = document.getElementById(lui)
-    containerCards.removeChild(elt)
+    let lui = event.target.parentNode.parentNode;
+    containerCards.removeChild(lui)
 }

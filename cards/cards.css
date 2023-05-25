@@ -1,6 +1,6 @@
 #container-cards {
-    max-width: 1000px;
-    margin: 50px;
+    max-width: 1400px;
+    margin: 50px auto;
     justify-content: center;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;

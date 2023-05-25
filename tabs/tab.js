@@ -8,7 +8,7 @@ let btnRemoveColumn = document.querySelector('#remove-column')
 
 let cells = tab.rows[0].cells.length;
 
-btnRemoveRow.removeAttribute('disabled')  
+//btnRemoveRow.removeAttribute('disabled')  
 let newRow = document.createElement('tr')
 newRow.setAttribute('style', 'border: 1px solid black;')
 
